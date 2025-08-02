@@ -45,9 +45,9 @@ function addLeadingZero(value) {
 }
 
 function convertMs(ms) {
-  const second = 1000;
-  const minute = second * 60;
-  const hour = minute * 60;
+  let second = 1000;
+  let minute = second * 60;
+  let hour = minute * 60;
   const day = hour * 24;
 
   const days = Math.floor(ms / day);
